@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "ES6"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/dotvvm-types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
