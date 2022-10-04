@@ -24,7 +24,7 @@ public class DotvvmStartup : IDotvvmStartup, IDotvvmServiceConfigurator
     }
 
     private void ConfigureResources(DotvvmConfiguration config, string applicationPath) {
-        config.Resources.RegisterScriptModuleFile("fluent-controls-module", "~/Controls/FluentControls.js");
+        config.Resources.RegisterScriptModuleFile("fluent-controls-module", "~/wwwroot/fluent-controls.js");
     }
 
     public void ConfigureServices(IDotvvmServiceCollection options) {

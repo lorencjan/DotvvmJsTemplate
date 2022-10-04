@@ -16,6 +16,10 @@
     <PackageReference Include="DotVVM.HotReload.AspNetCore" Version="4.1.0-preview10-final" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\dotvvm-react.js" />
+    <None Include="wwwroot\dotvvm-react.tsx" />
+    <None Include="wwwroot\fluent-controls.tsx" />
+    <None Include="wwwroot\literal.tsx" />
+    <None Include="wwwroot\tooltip.tsx" />
   </ItemGroup>
 </Project>

@@ -35,13 +35,13 @@ var config = {
 
 controlsExport = Object.assign({}, config, {
     entry: {
-        FluentControls: './Controls/FluentControls.tsx'
+        "fluent-controls": './wwwroot/fluent-controls.tsx'
     },
     output: {
         libraryTarget: 'module',
         devtoolModuleFilenameTemplate: '[resource-path]',
         filename: '[name].js',
-        path: path.resolve(__dirname, 'Controls')
+        path: path.resolve(__dirname, 'wwwroot')
     },
     experiments: {
         outputModule: true

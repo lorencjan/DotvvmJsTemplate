@@ -1,6 +1,6 @@
 ﻿import * as React from 'react';
 import { TooltipHost, ITooltipHostStyles } from '@fluentui/react';
-import { KnockoutTemplateReactComponent } from '../Common/lib/dotvvm-react';
+import { KnockoutTemplateReactComponent } from './dotvvm-react';
 
 type TooltipProps = {
     text: string;

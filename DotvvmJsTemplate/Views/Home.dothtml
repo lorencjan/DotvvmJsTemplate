@@ -8,26 +8,26 @@
     <h1>Tooltip not working on js component inside knockout template</h1>
 
     <h3>Tooltip - dot:Literal - works</h3>
-    <js:Tooltip text="I am a tooltip!">
+    <js:tooltip text="I am a tooltip!">
         <content>
             <dot:Literal Text="Tooltip" />
         </content>
-    </js:Tooltip>
+    </js:tooltip>
 
-    <h3>Tooltip - js:Literal - doesn't work</h3>
-    <js:Tooltip text="I am a tooltip!">
+    <h3>Tooltip - js:literal - doesn't work</h3>
+    <js:tooltip text="I am a tooltip!">
         <content>
-            <js:Literal text="Tooltip" />
+            <js:literal text="Tooltip" />
         </content>
-    </js:Tooltip>
+    </js:tooltip>
 
-    <h3>Tooltip - js:Literal - div works, over literal not ... as if it overlays the mouseenter event</h3>
-    <js:Tooltip text="I am a tooltip!">
+    <h3>Tooltip - js:literal - div works, over literal not ... as if it overlays the mouseenter event</h3>
+    <js:tooltip text="I am a tooltip!">
         <content>
             <div style="width: 200px; background-color: yellow;">
-                <js:Literal text="Tooltip" />
+                <js:literal text="Tooltip" />
             </div>
         </content>
-    </js:Tooltip>
+    </js:tooltip>
 
 </dot:Content>
